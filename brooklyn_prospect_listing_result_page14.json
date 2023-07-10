@@ -1,0 +1,1476 @@
+{
+    "data": {
+        "searchResult": {
+            "groupId": "452001315",
+            "airflowGenerationId": null,
+            "total": 264,
+            "totalNearby": 165,
+            "lastInGeometryId": null,
+            "poi": [
+                {
+                    "id": "m-3s6da5pc3qk6",
+                    "locationPoint": {
+                        "lat": 40.691062927246094,
+                        "lng": -73.92613983154297,
+                        "__typename": "Point"
+                    },
+                    "firstTimeSeen": "2020-06-05T18:20:06.786Z",
+                    "addressDetails": {
+                        "docId": "1038-greene-avenue-brooklyn-new-york-ny",
+                        "city": "new york",
+                        "borough": "brooklyn",
+                        "zipcode": "11221",
+                        "streetName": "greene avenue",
+                        "neighbourhood": "bedford stuyvesant",
+                        "neighbourhoodDocId": "bedford-stuyvesant-neighborhood-brooklyn-new-york-ny",
+                        "cityDocId": "new-york-ny",
+                        "streetNumber": "1038",
+                        "unitNumber": "7B",
+                        "district": "",
+                        "__typename": "PoiAddress"
+                    },
+                    "providerListingStatus": null,
+                    "dealType": "unitRent",
+                    "daysOnMarket": null,
+                    "address": "1038 Greene Ave, Brooklyn, NY",
+                    "beds": 1,
+                    "area": 700,
+                    "price": 2325,
+                    "pricesEstimations": null,
+                    "__typename": "Bulletin",
+                    "lowMonthlies": false,
+                    "listingDataFields": [
+                        {
+                            "meta": {
+                                "text": "Washer/dryer",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.dishwasher-dryer",
+                            "groupTypeForLabels": "amenities.dishwasher-dryer",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Pets allowed",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.unit-pets-allowed",
+                            "groupTypeForLabels": "amenities.unit-pets-allowed",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Gym",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.gym",
+                            "groupTypeForLabels": "amenities.gym",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Building garden",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-garden",
+                            "groupTypeForLabels": "amenities.shared_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Parking",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.parking",
+                            "groupTypeForLabels": "amenities.parking",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Building roofdeck",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-roofdeck",
+                            "groupTypeForLabels": "amenities.shared_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Laundry in building",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-laundry",
+                            "groupTypeForLabels": "amenities.building-laundry",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Elevator",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.elevator",
+                            "groupTypeForLabels": "amenities.elevator",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Air conditioner",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.air-conditioner",
+                            "groupTypeForLabels": "amenities.air-conditioner",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Building terrace",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-terrace",
+                            "groupTypeForLabels": "amenities.shared_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Bike storage",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.bike-storage",
+                            "groupTypeForLabels": "amenities.bike-storage",
+                            "__typename": "ListingDataFieldItem"
+                        }
+                    ],
+                    "virtualTours": null,
+                    "rentalBrokerFee": null,
+                    "eventsHistory": [
+                        {
+                            "eventType": "new",
+                            "price": 2325,
+                            "date": "2020-06-05T18:20:11.000Z",
+                            "__typename": "EventUpdate"
+                        }
+                    ],
+                    "poc": {
+                        "exclusivity": {
+                            "exclusive": true,
+                            "__typename": "Exclusivity"
+                        },
+                        "__typename": "AgentPoc"
+                    },
+                    "openHouses": [],
+                    "buildingClass": "multifamily",
+                    "images": [
+                        {
+                            "imageUrl": "bulletins/Copy of Copy of IMG_8099_tonemapped-161fc914-9239-46e0-9b82-b6b4f0bbc4a1.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/Copy of IMG_8063_4_5_tonemapped-77945527-9569-4255-909d-bff4ae3f2f13.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/Copy of IMG_8059_60_61_tonemapped-1326ef3c-b4dd-4f14-b684-38a2b2348dd0.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/Copy of IMG_8066_7_8_tonemapped-26d9d8b1-06dd-41d8-964c-d1bae9d6e6d8.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/Copy of IMG_8069_70_71_tonemapped-e80d4b56-ec87-487a-b057-147985dfb845.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/Copy of IMG_8072_3_4_tonemapped-50df20a1-1998-41b2-8f05-3c2a33a4bf95.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/Copy of IMG_8122_tonemapped-22dd9aa9-4a53-43f4-bc45-d9b2df5a137d.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8461_tonemapped-711dc946-0ede-4f8a-902c-609fc77b0d5c.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8525_tonemapped (1)-d4e840df-5778-45f9-a276-fbbd92726ec6.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8528_tonemapped (1)-9847b21a-dc07-4470-ad7a-698a96943f68.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8531_tonemapped-cbdc436e-04a4-4145-9232-3dfac8ba348c.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8529_tonemapped-1df7e049-254e-4da8-bc31-e2e629133534.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8533_tonemapped (1)-9f9fa2c2-d1db-481b-8e62-8b9b0f1d8d9d.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8536_tonemapped (1)-d2175aa0-902e-457a-8b03-c8232e605a90.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8542_tonemapped-c16b6fd8-5579-4d10-aed6-42b83a8257a0.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        }
+                    ],
+                    "commonCharges": null,
+                    "monthlyTaxes": null,
+                    "source": "Manual",
+                    "originalId": "m-3s6da5pc3qk6",
+                    "insights": {
+                        "insights": [
+                            {
+                                "category": "nuisances",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "3 Open Violations in building",
+                                    "tagLine": "BLDG VIOLATIONS",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "New construction within half a block",
+                                    "tagLine": "CONSTRUCTION COMING",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "nuisances",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Lots of complaints about noise nearby",
+                                    "tagLine": "NOISY AREA",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Construction site next door",
+                                    "tagLine": "CONSTRUCTION COMING",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "nuisances",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Train track under/next to bldg",
+                                    "tagLine": "ON TRAIN TRACKS",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "safety",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Above average crime rate",
+                                    "tagLine": "CRIME",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Plenty of community gardens nearby",
+                                    "tagLine": "livability",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Block parties are popular here",
+                                    "tagLine": "livability",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "More affordable housing may come to Bushwick",
+                                    "tagLine": "planning",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Good park access",
+                                    "tagLine": "",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            }
+                        ],
+                        "__typename": "Insights"
+                    }
+                },
+                {
+                    "id": "m-7iahd2pno8fj",
+                    "locationPoint": {
+                        "lat": 40.69112014770508,
+                        "lng": -73.92564392089844,
+                        "__typename": "Point"
+                    },
+                    "firstTimeSeen": "2020-11-18T18:53:44.967Z",
+                    "addressDetails": {
+                        "docId": "1052-greene-avenue-brooklyn-new-york-ny",
+                        "city": "new york",
+                        "borough": "brooklyn",
+                        "zipcode": "11221",
+                        "streetName": "greene avenue",
+                        "neighbourhood": "bedford stuyvesant",
+                        "neighbourhoodDocId": "bedford-stuyvesant-neighborhood-brooklyn-new-york-ny",
+                        "cityDocId": "new-york-ny",
+                        "streetNumber": "1052",
+                        "unitNumber": "6B",
+                        "district": "",
+                        "__typename": "PoiAddress"
+                    },
+                    "providerListingStatus": null,
+                    "dealType": "unitRent",
+                    "daysOnMarket": null,
+                    "address": "1052 Greene Ave, Brooklyn, NY",
+                    "beds": 1,
+                    "area": 700,
+                    "price": 2000,
+                    "pricesEstimations": null,
+                    "__typename": "Bulletin",
+                    "lowMonthlies": false,
+                    "listingDataFields": [
+                        {
+                            "meta": {
+                                "text": "Roofdeck",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.roof-deck",
+                            "groupTypeForLabels": "amenities.private_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Pets allowed",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.unit-pets-allowed",
+                            "groupTypeForLabels": "amenities.unit-pets-allowed",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Washer/dryer",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.unit-laundry",
+                            "groupTypeForLabels": "amenities.unit-laundry",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Washer/dryer",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.dishwasher-dryer",
+                            "groupTypeForLabels": "amenities.dishwasher-dryer",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Parking",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.parking",
+                            "groupTypeForLabels": "amenities.parking",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Gym",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.gym",
+                            "groupTypeForLabels": "amenities.gym",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Building roofdeck",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-roofdeck",
+                            "groupTypeForLabels": "amenities.shared_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Laundry in building",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-laundry",
+                            "groupTypeForLabels": "amenities.building-laundry",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Elevator",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.elevator",
+                            "groupTypeForLabels": "amenities.elevator",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Air conditioner",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.air-conditioner",
+                            "groupTypeForLabels": "amenities.air-conditioner",
+                            "__typename": "ListingDataFieldItem"
+                        }
+                    ],
+                    "virtualTours": null,
+                    "rentalBrokerFee": null,
+                    "eventsHistory": [
+                        {
+                            "eventType": "new",
+                            "price": 2000,
+                            "date": "2020-11-18T18:53:48.000Z",
+                            "__typename": "EventUpdate"
+                        }
+                    ],
+                    "poc": {
+                        "exclusivity": {
+                            "exclusive": true,
+                            "__typename": "Exclusivity"
+                        },
+                        "__typename": "AgentPoc"
+                    },
+                    "openHouses": [],
+                    "buildingClass": "condo",
+                    "images": [
+                        {
+                            "imageUrl": "bulletins/410469707-52917cb4-934b-452f-afd5-ef20a0fda959.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/410469708-b27d377e-8947-4ba6-86ae-e42d7d9da9e8.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/410469710-d8d5bde6-e179-4615-a3e7-2321e57280cc.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/410469711-f78efda5-e06d-44b9-b7f4-3419170d4ed2.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/379710452-25a5a421-81be-4797-b3a0-7280c7395b1a.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/377693721-e4ed109d-e3d3-44ce-a499-7cb0ee5ef4da.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/379710459-e86524db-7085-42a5-8f65-864dc78ee960.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/410469817-448b0f68-6f69-48f5-8226-3ea531304e87.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/410469814-ef822a3a-4828-45ea-a53a-1e2205201842.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/410469944-47633940-2dbd-4515-8330-51754b9fbce9.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/410469813-16f4775f-7c7b-452c-ad56-63b0ce18c960.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        }
+                    ],
+                    "commonCharges": null,
+                    "monthlyTaxes": null,
+                    "source": "Manual",
+                    "originalId": "m-7iahd2pno8fj",
+                    "insights": {
+                        "insights": [
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Bldg’s view could be cut off in the future",
+                                    "tagLine": "VIEW TO BE BLOCKED",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "New construction within half a block",
+                                    "tagLine": "CONSTRUCTION COMING",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "nuisances",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Lots of complaints about noise nearby",
+                                    "tagLine": "NOISY AREA",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Construction site next door",
+                                    "tagLine": "CONSTRUCTION COMING",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "nuisances",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Train track under/next to bldg",
+                                    "tagLine": "ON TRAIN TRACKS",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "safety",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Above average crime rate",
+                                    "tagLine": "CRIME",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Plenty of community gardens nearby",
+                                    "tagLine": "livability",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Block parties are popular here",
+                                    "tagLine": "livability",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "More affordable housing may come to Bushwick",
+                                    "tagLine": "planning",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Good park access",
+                                    "tagLine": "",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            }
+                        ],
+                        "__typename": "Insights"
+                    }
+                },
+                {
+                    "id": "m-g2jo6n9j1l41",
+                    "locationPoint": {
+                        "lat": 40.691062927246094,
+                        "lng": -73.92613983154297,
+                        "__typename": "Point"
+                    },
+                    "firstTimeSeen": "2020-10-23T19:22:21.324Z",
+                    "addressDetails": {
+                        "docId": "1038-greene-avenue-brooklyn-new-york-ny",
+                        "city": "new york",
+                        "borough": "brooklyn",
+                        "zipcode": "11221",
+                        "streetName": "greene avenue",
+                        "neighbourhood": "bedford stuyvesant",
+                        "neighbourhoodDocId": "bedford-stuyvesant-neighborhood-brooklyn-new-york-ny",
+                        "cityDocId": "new-york-ny",
+                        "streetNumber": "1038",
+                        "unitNumber": "5E",
+                        "district": "",
+                        "__typename": "PoiAddress"
+                    },
+                    "providerListingStatus": null,
+                    "dealType": "unitRent",
+                    "daysOnMarket": null,
+                    "address": "1038 Greene Ave, Brooklyn, NY",
+                    "beds": 1,
+                    "area": 400,
+                    "price": 1923,
+                    "pricesEstimations": null,
+                    "__typename": "Bulletin",
+                    "lowMonthlies": false,
+                    "listingDataFields": [
+                        {
+                            "meta": {
+                                "text": "Balcony",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.balcony",
+                            "groupTypeForLabels": "amenities.private_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Washer/dryer",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.dishwasher-dryer",
+                            "groupTypeForLabels": "amenities.dishwasher-dryer",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Pets allowed",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.unit-pets-allowed",
+                            "groupTypeForLabels": "amenities.unit-pets-allowed",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Parking",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.parking",
+                            "groupTypeForLabels": "amenities.parking",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Doorman",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.doorman",
+                            "groupTypeForLabels": "amenities.doorman",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Gym",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.gym",
+                            "groupTypeForLabels": "amenities.gym",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Building roofdeck",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-roofdeck",
+                            "groupTypeForLabels": "amenities.shared_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Laundry in building",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-laundry",
+                            "groupTypeForLabels": "amenities.building-laundry",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Elevator",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.elevator",
+                            "groupTypeForLabels": "amenities.elevator",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Air conditioner",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.air-conditioner",
+                            "groupTypeForLabels": "amenities.air-conditioner",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Building terrace",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-terrace",
+                            "groupTypeForLabels": "amenities.shared_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Bike storage",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.bike-storage",
+                            "groupTypeForLabels": "amenities.bike-storage",
+                            "__typename": "ListingDataFieldItem"
+                        }
+                    ],
+                    "virtualTours": null,
+                    "rentalBrokerFee": null,
+                    "eventsHistory": [
+                        {
+                            "eventType": "new",
+                            "price": 1923,
+                            "date": "2020-10-23T19:22:24.000Z",
+                            "__typename": "EventUpdate"
+                        }
+                    ],
+                    "poc": {
+                        "exclusivity": {
+                            "exclusive": true,
+                            "__typename": "Exclusivity"
+                        },
+                        "__typename": "AgentPoc"
+                    },
+                    "openHouses": [],
+                    "buildingClass": "condo",
+                    "images": [
+                        {
+                            "imageUrl": "bulletins/IMG_2974-91b0edc4-2a1c-4121-932c-ddada2fdeb8d.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2975-acf5d0ba-3660-462f-b342-9f4545d27db7.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2976-3f4c00cf-81c0-4d03-86b0-d84932cf54ef.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2977-869d22c8-13f0-439a-8071-39d267fdfdb5.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2978-bfa0c293-cb91-4216-a165-5d36edd05c2d.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2983-d350fc7b-7e6f-4c3b-808b-df9ce9e1d1cd.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2980-d44617dd-8834-49a0-852a-8b4cde43f900.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2981-32298377-179a-478c-a1b0-900f4ec5ca93.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2982-f8492fec-6bdc-4e38-b38b-5b2328adf088.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2984-8f0f0d81-f540-46e9-8ae6-6187ece098b3.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2985-3847698e-6bd4-4507-812a-ff51269410e2.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_2986-df8de0b5-6464-4bb1-9f66-68dbd9307b4e.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_4651-9a9d7e97-c448-4db8-bd00-7179882c723f.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8516_tonemapped-71b16f46-b4ce-4c9b-b93b-f08b38e6fce4.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8519_20_21_tonemapped-61885206-ef94-4d3a-b834-718f3d7c3fd2.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8522_tonemapped-5086bec6-5a2a-49ab-ad4d-57c79f2a6243.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8523_tonemapped-e4df34cf-f927-4cd9-bb38-fdb218cddb96.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8525_tonemapped-670e52ee-6091-4356-8ab3-2aaecd1c9096.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8528_tonemapped-7818d438-7a25-4c50-93cc-d81eb219fdfd.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8529_tonemapped-9bcc0140-4859-4ce2-bec4-e3151bcbce64.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8531_tonemapped-4fd5a2ba-5f81-481b-a172-5a535f2acc5f.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8532_tonemapped-64a36c49-20ce-4914-b9c6-c66d581ef7be.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8533_tonemapped-a1510cc8-6ba8-445a-8bfb-5cad0a945a12.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8536_tonemapped-7d2a88d6-26dd-4681-8173-602df5de6b30.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8537_tonemapped-d99d6629-73aa-4c61-98a4-5091e089cfef.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8539_tonemapped-7fa9f8f1-5a69-4963-8ffd-f5870d7cb8e9.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8540_tonemapped-1bf5dc0f-21c1-47c3-b496-10c40caf07d7.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8542_tonemapped-5ae28a86-b1fc-4b6a-8665-a034984e133b.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8543_tonemapped-38f5855d-35aa-42ef-9ce8-d9fed764d35e.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/IMG_8544_tonemapped-ebd380e3-42ad-4efa-adb2-36da8520ea75.jpg",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        }
+                    ],
+                    "commonCharges": null,
+                    "monthlyTaxes": null,
+                    "source": "Manual",
+                    "originalId": "m-g2jo6n9j1l41",
+                    "insights": {
+                        "insights": [
+                            {
+                                "category": "prices",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "400 sq ft less than similar listings.",
+                                    "tagLine": "LESS SQ FT",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "nuisances",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "3 Open Violations in building",
+                                    "tagLine": "BLDG VIOLATIONS",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "New construction within half a block",
+                                    "tagLine": "CONSTRUCTION COMING",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "nuisances",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Lots of complaints about noise nearby",
+                                    "tagLine": "NOISY AREA",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Construction site next door",
+                                    "tagLine": "CONSTRUCTION COMING",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "nuisances",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Train track under/next to bldg",
+                                    "tagLine": "ON TRAIN TRACKS",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "safety",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Above average crime rate",
+                                    "tagLine": "CRIME",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Plenty of community gardens nearby",
+                                    "tagLine": "livability",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Block parties are popular here",
+                                    "tagLine": "livability",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "More affordable housing may come to Bushwick",
+                                    "tagLine": "planning",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Good park access",
+                                    "tagLine": "",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            }
+                        ],
+                        "__typename": "Insights"
+                    }
+                },
+                {
+                    "id": "m-budg33jnnqqc",
+                    "locationPoint": {
+                        "lat": 40.690513610839844,
+                        "lng": -73.9262924194336,
+                        "__typename": "Point"
+                    },
+                    "firstTimeSeen": "2020-09-01T15:42:53.042Z",
+                    "addressDetails": {
+                        "docId": "822-lexington-avenue-brooklyn-new-york-ny",
+                        "city": "new york",
+                        "borough": "brooklyn",
+                        "zipcode": "11221",
+                        "streetName": "lexington avenue",
+                        "neighbourhood": "bedford stuyvesant",
+                        "neighbourhoodDocId": "bedford-stuyvesant-neighborhood-brooklyn-new-york-ny",
+                        "cityDocId": "new-york-ny",
+                        "streetNumber": "822",
+                        "unitNumber": "4D",
+                        "district": "",
+                        "__typename": "PoiAddress"
+                    },
+                    "providerListingStatus": null,
+                    "dealType": "unitRent",
+                    "daysOnMarket": null,
+                    "address": "822 Lexington Ave, Brooklyn, NY",
+                    "beds": 1,
+                    "area": 575,
+                    "price": 2145,
+                    "pricesEstimations": null,
+                    "__typename": "Bulletin",
+                    "lowMonthlies": false,
+                    "listingDataFields": [
+                        {
+                            "meta": {
+                                "text": "Pets allowed",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.unit-pets-allowed",
+                            "groupTypeForLabels": "amenities.unit-pets-allowed",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Washer/dryer",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.dishwasher-dryer",
+                            "groupTypeForLabels": "amenities.dishwasher-dryer",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Parking",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.parking",
+                            "groupTypeForLabels": "amenities.parking",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Building garden",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-garden",
+                            "groupTypeForLabels": "amenities.shared_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Gym",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.gym",
+                            "groupTypeForLabels": "amenities.gym",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Building roofdeck",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-roofdeck",
+                            "groupTypeForLabels": "amenities.shared_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Laundry in building",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-laundry",
+                            "groupTypeForLabels": "amenities.building-laundry",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Elevator",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.elevator",
+                            "groupTypeForLabels": "amenities.elevator",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Air conditioner",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.air-conditioner",
+                            "groupTypeForLabels": "amenities.air-conditioner",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Building terrace",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.building-terrace",
+                            "groupTypeForLabels": "amenities.shared_outdoor_space",
+                            "__typename": "ListingDataFieldItem"
+                        },
+                        {
+                            "meta": {
+                                "text": "Bike storage",
+                                "__typename": "AmenityMetaData"
+                            },
+                            "type": "amenities.bike-storage",
+                            "groupTypeForLabels": "amenities.bike-storage",
+                            "__typename": "ListingDataFieldItem"
+                        }
+                    ],
+                    "virtualTours": null,
+                    "rentalBrokerFee": null,
+                    "eventsHistory": [
+                        {
+                            "eventType": "new",
+                            "price": 2231,
+                            "date": "2020-09-01T15:42:56.000Z",
+                            "__typename": "EventUpdate"
+                        },
+                        {
+                            "eventType": "priceDrop",
+                            "price": 2145,
+                            "date": "2020-09-15T19:56:35.000Z",
+                            "__typename": "EventUpdate"
+                        }
+                    ],
+                    "poc": {
+                        "exclusivity": {
+                            "exclusive": true,
+                            "__typename": "Exclusivity"
+                        },
+                        "__typename": "AgentPoc"
+                    },
+                    "openHouses": [],
+                    "buildingClass": "multifamily",
+                    "images": [
+                        {
+                            "imageUrl": "bulletins/final 5-fc3ec9d0-dd8e-4770-a109-13ce83183d19.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/final 3-e66767f0-e5dd-48d6-ae93-894a763d0116.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/final 2-2367071c-8bab-4384-ac2b-69a0d248d07d.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/final 4-95bfaf4e-f908-4ab5-8da2-3dd1c5a6ef74.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/final-7b4b38e4-534d-4325-aa99-20f25d7eeca8.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/5f04b18d-07b8-4281-93e5-6ae16afa67ea-65fca8bd-c3dc-49b1-9af0-f4866a2e9c13.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/651baf3e-739f-4a72-a22f-707b6708584f-4a9a8779-4f45-4558-a660-797f0de15cd4.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/0ab48d96-c764-4187-9bcf-f5d46f4d1e45-79c839e3-91de-4d32-8633-d004e3a4ff7c.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/2f3da7e6-a746-44b9-8843-845c871579bc-53a8978f-81f4-49a6-a1b4-b8d8a5241581.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/4b01e298-4627-4099-9564-c9656fb0545d-81fd2bf5-4dd5-4422-94cc-d447662330b9.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/8e5c3347-c0fb-43f9-91b5-48e6da07ab3c-3b373942-841b-4b9f-b400-081f17ec93b9.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/8ec8112d-6844-4aab-827b-4459d47cd32f-24a78590-407d-462f-83e8-e91931fdd758.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/b706e930-e12a-4687-8373-5edcacd2907a-7a4cba4f-a907-4c97-a6e8-70a04873586a.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/bathroom-7910594d-beca-4454-b429-77bc1e706004.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/c579e69d-9781-424d-82e1-6134eb8ec56e-37363169-610a-4447-bf35-c96fa4cb8fbc.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        },
+                        {
+                            "imageUrl": "bulletins/d02aecef-7592-4859-bd26-2f180f3e3661-f7b35838-62aa-4f8b-8ceb-cc9abc683a0e.JPG",
+                            "isFloorplan": false,
+                            "__typename": "ImageItem"
+                        }
+                    ],
+                    "commonCharges": null,
+                    "monthlyTaxes": null,
+                    "source": "Manual",
+                    "originalId": "m-budg33jnnqqc",
+                    "insights": {
+                        "insights": [
+                            {
+                                "category": "prices",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "220 sq ft less than similar listings.",
+                                    "tagLine": "LESS SQ FT",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "New construction within half a block",
+                                    "tagLine": "CONSTRUCTION COMING",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "nuisances",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Lots of complaints about noise nearby",
+                                    "tagLine": "NOISY AREA",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Construction site next door",
+                                    "tagLine": "CONSTRUCTION COMING",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "safety",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Above average crime rate",
+                                    "tagLine": "CRIME",
+                                    "impactful": true,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Plenty of community gardens nearby",
+                                    "tagLine": "livability",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Block parties are popular here",
+                                    "tagLine": "livability",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "planning",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "More affordable housing may come to Bushwick",
+                                    "tagLine": "planning",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            },
+                            {
+                                "category": "livability",
+                                "tradeoff": {
+                                    "insightPlace": null,
+                                    "value": "Good park access",
+                                    "tagLine": "",
+                                    "impactful": false,
+                                    "__typename": "Tradeoff"
+                                },
+                                "__typename": "Insight"
+                            }
+                        ],
+                        "__typename": "Insights"
+                    }
+                }
+            ],
+            "__typename": "SearchBulletinResponse"
+        }
+    }
+}

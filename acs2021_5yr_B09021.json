@@ -1,0 +1,128 @@
+{
+    "release": {
+        "id": "acs2021_5yr",
+        "years": "2017-2021",
+        "name": "ACS 2021 5-year"
+    },
+    "tables": {
+        "B09021": {
+            "title": "Living Arrangements of Adults 18 Years and Over by Age",
+            "universe": "Population 18 Years and Over in Households",
+            "denominator_column_id": "B09021001",
+            "columns": {
+                "B09021001": {
+                    "name": "Total:",
+                    "indent": 0
+                },
+                "B09021002": {
+                    "name": "Lives alone",
+                    "indent": 1
+                },
+                "B09021003": {
+                    "name": "Householder living with spouse or spouse of householder",
+                    "indent": 1
+                },
+                "B09021004": {
+                    "name": "Householder living with unmarried partner or unmarried partner of householder",
+                    "indent": 1
+                },
+                "B09021005": {
+                    "name": "Child of householder",
+                    "indent": 1
+                },
+                "B09021006": {
+                    "name": "Other relatives",
+                    "indent": 1
+                },
+                "B09021007": {
+                    "name": "Other nonrelatives",
+                    "indent": 1
+                },
+                "B09021008": {
+                    "name": "18 to 34 years:",
+                    "indent": 1
+                },
+                "B09021009": {
+                    "name": "Lives alone",
+                    "indent": 2
+                },
+                "B09021010": {
+                    "name": "Householder living with spouse or spouse of householder",
+                    "indent": 2
+                },
+                "B09021011": {
+                    "name": "Householder living with unmarried partner or unmarried partner of householder",
+                    "indent": 2
+                },
+                "B09021012": {
+                    "name": "Child of householder",
+                    "indent": 2
+                },
+                "B09021013": {
+                    "name": "Other relatives",
+                    "indent": 2
+                },
+                "B09021014": {
+                    "name": "Other nonrelatives",
+                    "indent": 2
+                },
+                "B09021015": {
+                    "name": "35 to 64 years:",
+                    "indent": 1
+                },
+                "B09021016": {
+                    "name": "Lives alone",
+                    "indent": 2
+                },
+                "B09021017": {
+                    "name": "Householder living with spouse or spouse of householder",
+                    "indent": 2
+                },
+                "B09021018": {
+                    "name": "Householder living with unmarried partner or unmarried partner of householder",
+                    "indent": 2
+                },
+                "B09021019": {
+                    "name": "Child of householder",
+                    "indent": 2
+                },
+                "B09021020": {
+                    "name": "Other relatives",
+                    "indent": 2
+                },
+                "B09021021": {
+                    "name": "Other nonrelatives",
+                    "indent": 2
+                },
+                "B09021022": {
+                    "name": "65 years and over:",
+                    "indent": 1
+                },
+                "B09021023": {
+                    "name": "Lives alone",
+                    "indent": 2
+                },
+                "B09021024": {
+                    "name": "Householder living with spouse or spouse of householder",
+                    "indent": 2
+                },
+                "B09021025": {
+                    "name": "Householder living with unmarried partner or unmarried partner of householder",
+                    "indent": 2
+                },
+                "B09021026": {
+                    "name": "Child of householder",
+                    "indent": 2
+                },
+                "B09021027": {
+                    "name": "Other relatives",
+                    "indent": 2
+                },
+                "B09021028": {
+                    "name": "Other nonrelatives",
+                    "indent": 2
+                }
+            }
+        }
+    }
+}
