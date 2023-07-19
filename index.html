@@ -3,94 +3,217 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cost of Sunlight</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <!-- <style>
-        .header h1 {
-            padding-top: 400px;
-            padding-right: 50px;
-        }
-    </style> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
-<body class="mt-6 pt-6 px-6">
-    <div class="mt-6 px-6 container">
-        <div class="columns">
-            <div class="column is-one-fifth-desktop">
-                <header>
-                    <h1 class="pb-6 pt-6 title is-1">Cost of Sunlight</h1>
-                </header>
-                <h2 class="mt-4 subtitle is-4"> <strong> The Idea</strong></h2>
-                <div>
-                    <p>Living in a city as vibrant and dynamic as New York City comes with
-                        its
-                        share of challenges.
-                        High
-                        rent
-                        prices, crowded streets, and towering buildings are a part of everyday life. Yet, in the
-                        midst of
-                        these
-                        urban challenges, one unexpected commodity has emerged - sunlight.</p>
-                </div>
+<body>
+
+    <div class="mt-44 container mx-auto">
+        <div class="grid justify-items-left grid-cols-1s grid-rows-1 ">
+            <div class="w-3/5 p-5">
+                <div class="row-span-1 p-0.5">Lede Project 2</div>
+                <h1 class="font-serif text-4xl font-semibold tracking-wide text-gray-800"> Cost of Sunlight</h1>
+            </div>
+            <!-- <div class=" w-1/2 p-5 border-4 border-sky-500">02 lksdfnslkdfmklsdfm</div> -->
+            <!-- <div class="w-1/4 p-5 border-4 border-sky-500">03 indlkdsnfksld</div> -->
+        </div>
+    </div>
+    <!-- FIRST SECTION -->
+    <!-- <div class="container mx-auto border-4 border-purple-400"> </div> Boarders used to keep track of layout -->
+    <div class="container mx-auto">
+        <div class="flex flex-col ">
+            <p class="font-sans text-base pl-1 pt-10 text-left">For project 2 we were instructed to “stretch our skills
+                a little bit more”. For each project we're allowed only 2
+                weeks to complete. In these past 2 weeks we've learned scraping, ai2html, a little D3 on top of pandas,
+                Altair,
+                elements of visual design and storytelling.
+
+                Unfortunately, I was not able to turn my project around by the two week deadline. While I definitely did
+                improve
+                from the previous project (link to project 1) - which I completed in 3 days. Despite being more prepared
+                I faced
+                several roadblocks. Ai2html wouldn't work, the svg I used as a base to work off from took a little
+                longer to
+                re-illustrate, and I forgot I didn't actually know CSS to bring the story to life (for Project 1 I used
+                a
+                combination of borrowing from previous students and ChatGPT).
+
+                So instead, here's a post-mortem of Project 2.
+            </p>
+            <h2 class="font-sans text-xl font-medium pl-1 pt-10 text-gray-600"> The Idea
+        </div>
+        <p class="pl-1 pt-2 text-base text-left">With only 2 weeks, determined not to spend too much time in the data
+            collection phase but knowing I wanted to specifically put my scraping skills to the test, I resolved that
+            scraping data from Zillow would be challenging enough. The discussion about rent in NYC is a topic of
+            importance to me. But I wanted to do something a little different than what's been discussed ad nauseam
+            (include link about high rent in NYC). I thought about what's important to me when it comes to looking for a
+            place to live but is usually inaccessible or would put me in a rental bracket that's higher than I can
+            afford. Alas, sunlight. If you scroll through Facebook groups and craigslist posts for the apartment hopper,
+            posts almost always (though not always the case) start with “Bright”, “North-facing” (to imply gets a lot of
+            sunlight) or “Sunny”. </p>
+        <!-- <p class="pl-1 pt-2 text-base text-left"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             <p class="float-right box-border w-1/4 p-4 pl-4 pt-10 border-2 border-rose-300"> Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Voluptate id unde magni veniam.
+            Accusantium nesciunt, reiciendis saepe nostrum quasi iste cupiditate! Laborum, possimus. Provident
+            maxime iste
+            dolor
+            quis nemo deleniti.
+        </p>  -->
+        <!-- Provident ea illo maiores voluptate ullam eos!
+            Veritatis, corrupti officia voluptates, voluptatibus officiis nihil possimus eaque deserunt amet, at soluta
+            libero veniam.
+        </p> -->
+    </div>
+    <!-- SECOND SECTION -->
+    <!-- <div class="container mx-auto border-4 border-sky-500"> -->
+    <div class="container mx-auto ">
+        <div class="flex flex-row" >
+            <h2 class="pl-1 pt-10 font-sans text-xl font-medium text-gray-600"> Getting the Data and Narrowing the Scope
+        </div>
+        <div class="grid grid-cols-2 gap-10">
+            <div>
+                <p class="pl-1 pt-2 text-base text-left">With a rough idea in mind, I took to researching how exactly
+                    once could calculate or guesstimate how much sunlight an apartment would get. To my luck, the real
+                    estate company Localize.city had just what I needed. Data scientists working with the company just
+                    as aware of the value of apartment sun exposure as I was, using 3D analysis and python developed, a
+                    python library called PySolar which allowed them to advertise how much natural light apartment
+                    listed on their website got. </p>
+                <p class="pl-1 pt-2 text-base text-left"> I attended mentorship with Kai Teoh with what I'd found, with
+                    the intention to scrape Localize.city's webpage. However, the site has rate blocking which quickly
+                    detects if someone (like a student practicing scraping) is scraping their website. Kai had a
+                    solution. He gave me an introduction to accessing undocumented api's using cUrl and sent me off to
+                    test it. While I was a little disappointed that I would not get to put my new scraping skills to use
+                    I was relieved I could rely on my API skills gained 2 weeks prior and get ahead in my data
+                    processing.</p>
+                <p class="pl-1 pt-2 text-base text-left">But I was unsuccessful and after a second check-in with Kai, we
+                    realized we definitely could not make calls to the api. Instead I would have to copy the XHR api
+                    feed for each search result page into a text file (I used Sublime) and save it as a json.</p>
+
+                <p class="pl-1 pt-2 text-base text-left">With only 1 ½ week left and determined not to relive Project
+                    1's experience, I started cutting, no, slashing the fat.
+
+                    Instead of all of NYC -> Brookyln
+                    Instead of all of Brooklyn -> Prospect Park (an area quadrangled by contrasting wealth groups).
+                    Instead of all apartment types -> only those of a certain size
+
+                    The resulting 13 pages weren't ideal but were hopefully enough to tell a story or delivery insights
+                    about the relationship between sun exposure and rental prices.</p>
+            </div>
+            <div class="border-2">
+                <img class="w-auto md:w-32 lg:w-auto" src="data_collection_process.gif" alt="">
             </div>
         </div>
     </div>
-    <div class="mt-6 px-6 container">
-            <!-- Main content goes here -->
-            <main>
+    <!-- THIRD SECTION
+    <div class="container mx-auto border-4 border-orange-700"></div> 
+    <div class="container mx-auto">
+        <div class="flex">
+            <h2 class="flex-initial w-64  pl-1 pt-10 font-sans text-xl font-medium text-gray-600"> Narrowing the Scope
+        </div>
+        <div class="grid grid-cols-2 gap-10">
+            <div>
+                <p class="pl-1 pt-2 text-base text-left">With only 1 ½ week left and determined not to relive Project
+                    1's experience, I started cutting, no, slashing the fat.
 
-                <div>
-                    <h2 class="mt-4 subtitle is-4"> <strong> Unveiling the Value of Sunlight</strong></h2>
-                    <p>Sunlight, an essential aspect of well-being and a key player in
-                        sustainable living,
-                        seems to
-                        have
-                        found its place in the city's real estate market. Using a small dataset from
-                        Localize.city,
-                        an
-                        interesting trend was observed. Despite the variability and limited data points,
-                        apartments
-                        described as having "Bright & sun drenched" and "Moderate sunlight" exposure had
-                        higher mean
-                        rents than those with "Limited natural light". Those without sunlight data were the
-                        most
-                        variable, indicating other factors significantly affecting these apartments' prices.
-                        These
-                        statistics suggest that there is a financial implication tied to sunlight exposure
-                        in a
-                        rental
-                        property.</p>
-                </div>
-                <div>
-                    <p>The worth of sunlight, however, extends beyond dollar amounts. Numerous studies have
-                        highlighted
-                        the health and psychological benefits of natural light - from boosting Vitamin D
-                        synthesis
-                        to
-                        enhancing mood. When considering these advantages, higher rents for well-lit
-                        apartments
-                        might be
-                        justifiable.</p>
-                </div>
+                    Instead of all of NYC -> Brookyln
+                    Instead of all of Brooklyn -> Prospect Park (an area quadrangled by contrasting wealth groups).
+                    Instead of all apartment types -> only those of a certain size
 
-                <div>
-                    <p>Yet, it's crucial to reflect on what these findings mean for the future of urban
-                        living. Are
-                        we
-                        moving towards an era where sunlight is increasingly becoming a luxury in the urban
-                        jungle?
-                        What
-                        does this mean for millennials and the new generation of city dwellers who are
-                        trying to
-                        balance
-                        work, lifestyle, and health in an ever-evolving metropolis?</p>
-                </div>
+                    The resulting 13 pages weren't ideal but were hopefully enough to tell a story or delivery insights
+                    about the relationship between sun exposure and rental prices.
+                </p>
+            </div>
+            <div class="border-4 border-sky-500">
+                <p class="pl-1 pt-2 text-base text-left">Description of the data collection process. How you initially
+                    aimed to collect data
+                    via
+                    an
+                    API,
+                    the issues you faced, and your switch to web scraping. </p>
+                <p class="pl-1 pt-2 text-base text-left"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate id unde magni
+                    veniam.
+                    Accusantium nesciunt, reiciendis saepe nostrum quasi iste cupiditate! Laborum, possimus. Provident
+                    maxime iste
+                    dolor
+                    quis nemo deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id unde magni
+                    veniam.
+                    Accusantium nesciunt, reiciendis saepe nostrum quasi iste cupiditate! Laborum, possimus. Provident
+                    maxime iste
+                    dolor
+                    quis nemo deleniti.</p>
+            </div>
+        </div>
+    </div> -->
+    <!-- FOURTH SECTION -->
+    <!-- <div class="container mx-auto border-4 border-purple-600"></div> -->
+    <div class="container mx-auto">
+        <div class="flex">
+            <h2 class="flex-initial w-64  pl-1 pt-10 font-sans text-xl font-medium text-gray-600"> Analysis </h2>
 
-                <!-- More sections here -->
-            </main>
+        </div>
+        <div id="controls-carousel" class="relative w-full" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/docs/images/carousel/carousel-1.svg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <img src="/docs/images/carousel/carousel-2.svg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/docs/images/carousel/carousel-3.svg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/docs/images/carousel/carousel-4.svg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/docs/images/carousel/carousel-5.svg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
     </div>
-    <script src="script.js"></script>
+
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 
 </html>
