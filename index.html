@@ -69,14 +69,17 @@
     <!-- SECOND SECTION -->
     <!-- <div class="container mx-auto border-4 border-sky-500"> -->
     <div class="container mx-auto ">
-        <div class="flex flex-row" >
+        <div class="flex flex-row">
             <h2 class="pl-1 pt-10 font-sans text-xl font-medium text-gray-600"> Getting the Data and Narrowing the Scope
         </div>
         <div class="grid grid-cols-2 gap-10">
             <div>
                 <p class="pl-1 pt-2 text-base text-left">With a rough idea in mind, I took to researching how exactly
                     once could calculate or guesstimate how much sunlight an apartment would get. To my luck, the real
-                    estate company <a href="https://www.localize.city/blog/sun-drenched-or-sun-starved-now-you-can-know-how-much-light-a-building-gets/" class="text-blue-600 visited:text-purple-600 ...">Localize.city</a> had just what I needed. Data scientists working with the company just
+                    estate company <a
+                        href="https://www.localize.city/blog/sun-drenched-or-sun-starved-now-you-can-know-how-much-light-a-building-gets/"
+                        class="text-blue-600 visited:text-purple-600 ...">Localize.city</a> had just what I needed. Data
+                    scientists working with the company just
                     as aware of the value of apartment sun exposure as I was, using 3D analysis and python developed, a
                     python library called PySolar which allowed them to advertise how much natural light apartment
                     listed on their website got. </p>
@@ -101,8 +104,8 @@
                     The resulting 13 pages weren't ideal but were hopefully enough to tell a story or delivery insights
                     about the relationship between sun exposure and rental prices.</p>
             </div>
-            <div class="border-2">
-                <img class="w-auto md:w-32 lg:w-auto" src="data_collection_process.gif" alt="">
+            <div>
+                <img class="pt-20 w-auto md:w-32 lg:w-auto" src="data_collection_process.gif" alt="">
             </div>
         </div>
     </div>
@@ -111,36 +114,33 @@
     <div class="container mx-auto">
         <div class="flex">
             <h2 class="flex-initial w-64  pl-1 pt-10 font-sans text-xl font-medium text-gray-600"> Analysis </h2>
-
         </div>
-        <div id="controls-carousel" class="relative w-full" data-carousel="static">
+        <div id="controls-carousel" class="relative w-3/4" data-carousel="static">
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="/docs/images/carousel/carousel-1.svg"
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <img src="carbon.png"
                         class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                    <img src="/docs/images/carousel/carousel-2.svg"
+                    <img src="boxplot_sunlight.svg"
                         class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
-                <!-- Item 3 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="/docs/images/carousel/carousel-3.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 4 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="/docs/images/carousel/carousel-4.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 5 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="/docs/images/carousel/carousel-5.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
             </div>
             <!-- Slider controls -->
             <button type="button"
@@ -170,8 +170,13 @@
                 </span>
             </button>
         </div>
+        <div class="container mx-auto">
+            <div class="flex flex-row">
+                <h2 class="pl-1 pt-10 font-sans text-xl font-medium text-gray-600"> Getting the Data and Narrowing the
+                    Scope
+            </div>
+        </div>
     </div>
-
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 
