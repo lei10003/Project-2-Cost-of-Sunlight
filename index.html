@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"  rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -14,6 +14,9 @@
             <div class="w-auto">
                 <div class="row-span-1 pl-2 pb-2">Lede Project 2 (Post-Mortem)</div>
                 <h1 class="font-serif text-6xl font-semibold tracking-wide text-gray-800"> Cost of Sunlight</h1>
+                <div class="row-span-1 pt-10 pl-2 pb-2">
+                    <h3> By: Ligea Alexander</h3>
+                </div>
             </div>
             <!-- <div class=" w-1/2 p-5 border-4 border-sky-500">02 lksdfnslkdfmklsdfm</div> -->
             <!-- <div class="w-1/4 p-5 border-4 border-sky-500">03 indlkdsnfksld</div> -->
@@ -23,29 +26,34 @@
     <!-- <div class="container mx-auto border-4 border-purple-400"> </div> Boarders used to keep track of layout -->
     <div class="container mx-auto">
         <div class="flex flex-col ">
-            <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-10 text-left">For project 2 we were instructed to “stretch our skills
+            <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-10 text-left">For project 2 we were
+                instructed to “stretch our skills
                 a little bit more”. For each project we're allowed only 2
                 weeks to complete. In these past 2 weeks we've learned scraping, ai2html, a little D3 on top of pandas,
                 Altair,
                 elements of visual design and storytelling.
 
-                Unfortunately, <strong>I was not able </strong>to turn my project around by the two week deadline. While I definitely did
+                Unfortunately, <strong>I was not able </strong>to turn my project around by the two week deadline. While
+                I definitely did
                 improve
-                from the <a
-                href="https://lei10003.github.io/cellar-defenders/"
-                class="text-blue-600 visited:text-purple-600">previous project</a>- which I completed in 3 days. Despite being more prepared
+                from the <a href="https://lei10003.github.io/cellar-defenders/"
+                    class="text-blue-600 visited:text-purple-600">previous project</a>- which I completed in 3 days.
+                Despite being more prepared
                 I faced
                 several roadblocks. Ai2html wouldn't work, the svg I used as a base to work off from took a little
                 longer to
-                re-illustrate, and I forgot I didn't actually know CSS to bring the story to life (for Project 1 I used
+                re-illustrate, and I forgot I didn't <i> actually</i> know CSS that would help bring the story to life
+                (for Project 1 I used
                 a
                 combination of borrowing from previous students and ChatGPT).
 
-                So instead, here's this painstaking review -a postmortem- of my process (including when I hit a wall) of Project 2.
+                So instead, here's this painstaking review -a postmortem- of my process (including when I hit a wall) of
+                Project 2.
             </p>
             <h2 class="font-sans text-2xl font-medium pl-1 pt-10 text-slate-800"> The Idea
         </div>
-        <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">With only 2 weeks, determined not to spend too much time in the data
+        <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">With only 2 weeks, determined not
+            to spend too much time in the data
             collection phase but knowing I wanted to specifically put my scraping skills to the test, I resolved that
             scraping data from Zillow would be challenging enough. The discussion about rent in NYC is a topic of
             importance to me. But I wanted to do something a little different than what's been discussed ad nauseam
@@ -71,31 +79,38 @@
     <!-- <div class="container mx-auto border-4 border-sky-500"> -->
     <div class="container mx-auto ">
         <div class="flex flex-row">
-            <h2 class="pl-1 pt-10 font-sans text-2xl font-medium text-slate-800"> Getting the Data and Narrowing the Scope
+            <h2 class="pl-1 pt-10 font-sans text-2xl font-medium text-slate-800"> Getting the Data and Narrowing the
+                Scope
         </div>
         <div class="grid grid-cols-2 gap-10">
             <div>
-                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">With a rough idea in mind, I took to researching how exactly
+                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">With a rough idea in
+                    mind, I took to researching how exactly
                     one could calculate or guesstimate how much sunlight an apartment would get. To my luck, the real
                     estate company <a
                         href="https://www.localize.city/blog/sun-drenched-or-sun-starved-now-you-can-know-how-much-light-a-building-gets/"
                         class="text-blue-600 visited:text-purple-600">Localize.city</a> had just what I needed. Data
                     scientists working with the company just
                     as aware of the value of apartment sun exposure as I was, using 3D analysis and python developed, a
-                    python library called <a href="https://pysolar.readthedocs.io/en/latest/" class="text-blue-600 visited:text-purple-600">PySolar</a> which allowed them to advertise how much natural light apartment
+                    python library called <a href="https://pysolar.readthedocs.io/en/latest/"
+                        class="text-blue-600 visited:text-purple-600">PySolar</a> which allowed them to advertise how
+                    much natural light apartment
                     listed on their website got. </p>
-                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left"> I attended mentorship with Kai Teoh with what I'd found, with
+                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left"> I attended mentorship
+                    with Kai Teoh with what I'd found, with
                     the intention to scrape Localize.city's webpage. However, the site has rate blocking which quickly
                     detects if someone (like a student practicing scraping) is scraping their website. Kai had a
                     solution. He gave me an introduction to accessing undocumented api's using cUrl and sent me off to
                     test it. While I was a little disappointed that I would not get to put my new scraping skills to use
                     I was relieved I could rely on my API skills gained 2 weeks prior and get ahead in my data
                     processing.</p>
-                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">But I was unsuccessful and after a second check-in with Kai, we
+                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">But I was unsuccessful
+                    and after a second check-in with Kai, we
                     realized we definitely could not make calls to the api. Instead I would have to copy the XHR api
                     feed for each search result page into a text file (I used Sublime) and save it as a json.</p>
 
-                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">With only 1 ½ week left and determined not to relive Project
+                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">With only 1 ½ week left
+                    and determined not to relive Project
                     1's experience, I started cutting, no, slashing the fat.</p>
                 <ul class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left list-disc">
                     <li>Instead of all of NYC -> Brookyln</li>
@@ -104,7 +119,8 @@
                     <li>Instead of all apartment types -> only those of a certain size</li>
                 </ul>
 
-                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">The resulting 13 pages weren't ideal but were hopefully enough
+                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left">The resulting 13 pages
+                    weren't ideal but were hopefully enough
                     to tell a story or delivery insights
                     about the relationship between sun exposure and rental prices.</p>
             </div>
@@ -115,22 +131,32 @@
     </div>
     <!-- THIRD SECTION -->
     <!-- <div class="container mx-auto border-4 border-purple-600"></div> -->
-    <div class="container h-96 mx-auto">
+    <div class="container h-96 mb-20 mx-auto">
         <div class="flex">
-            <h2 class="flex-initial w-64 pb-10 pl-1 pt-10 font-sans text-2xl font-medium text-slate-800"> Analysis </h2>
+            <h2 class="flex-initial w-64 pl-1 pt-10 font-sans text-2xl font-medium text-slate-800"> Analysis </h2>
         </div>
-        <div id="controls-carousel" class="relative w-3/4" data-carousel="static">
+        <div class="container mx-auto">
+            <div class="flex flex-col ">
+                <p class="font-sans font-normal leading-relaxed text-base pl-1 pt-2 text-left"> Lorem ipsum dolor sit
+                    amet consectetur, adipisicing elit. Vitae dolore, quas veritatis error nesciunt consectetur
+                    temporibus reiciendis repudiandae debitis incidunt rerum corporis, atque ab fugiat voluptate odit
+                    culpa ipsa et!</p>
+            </div>
+        </div>
+        <div id="controls-carousel" class="pt-20 h-fit relative w-3/4" data-carousel="static">
             <!-- Carousel wrapper -->
             <div class="relative overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
                     <img src="carbon.png"
-                        class="p-20 absolute block h-auto w-3/4 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                        class="p-20 absolute block h-auto w-3/4 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        alt="...">
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="boxplot_sunlight.svg"
-                        class="p-20 absolute block h-auto w-3/4 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                        class="p-20 absolute block h-auto w-3/4 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        alt="...">
                 </div>
             </div>
             <!-- Slider indicators -->
@@ -176,6 +202,15 @@
         </div>
         <div class="container mx-auto">
             <div class="flex flex-row pt-10"></div>
+        </div>
+    </div>
+
+    <div class="container pt-80 mx-auto">
+        <div class="flex flex-col">
+            <div class="grid justify-items-center grid-cols-1s grid-rows-1 ">
+                <a href="https://github.com/lei10003/the-cost-of-sunlight"><img class="h-24 max-w-full"
+                        src="github-mark.png" alt="link to github repo"></a>
+            </div>
         </div>
     </div>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
